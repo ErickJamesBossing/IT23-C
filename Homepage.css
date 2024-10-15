@@ -1,0 +1,154 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2b2e83; /* Dark blue */
+    padding: 10px 20px;
+    color: white;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6a2b8a; /* Purple */
+    color: white;
+    padding: 40px 20px;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.btn {
+    background-color: #3a56d4; /* Light blue */
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 15px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+.hero-image {
+    max-width: 40%;
+}
+
+/* About Section */
+.about {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: left;
+}
+
+.about-text {
+    max-width: 50%;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    color: #6a2b8a; /* Purple */
+}
+
+.about p {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #2b2e83; /* Dark blue */
+}
+
+.about-image {
+    max-width: 40%;
+}
+
+/* Products Section */
+.products {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #2b2e83; /* Dark blue */
+    color: #fff;
+}
+
+.products h2 {
+    font-size: 2.5rem;
+}
+
+.product-list {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.product-card {
+    background-color: #fff;
+    color: black;
+    padding: 20px;
+    width: 200px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.product-card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.product-card h3 {
+    margin: 10px 0;
+    color: #6a2b8a; /* Purple */
+}
+
+.product-card p {
+    margin: 5px 0;
+    color: #2b2e83; /* Dark blue */
+}
+
+/* Footer */
+.footer {
+    background-color: #6a2b8a; /* Purple */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

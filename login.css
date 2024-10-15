@@ -1,8 +1,8 @@
 body {
     font-family: Arial, sans-serif;
     background-image: url('https://img.freepik.com/free-vector/realistic-background-futuristic-style_23-2149129125.jpg?w=900&t=st=1728521669~exp=1728522269~hmac=0c31bedc1c8c85d445265bc409a7357576116d80cdac4275410e894084b155c2'); /* Ilisi kini sa imong image URL */
-    background-size: cover; /* I-cover ang background */
-    background-position: center; /* I-center ang image */
+    background-size: cover; 
+    background-position: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -11,13 +11,13 @@ body {
 }
 
 .login-container {
-    background: rgba(255, 255, 255, 0.5); /* More transparent background */
+    background: rgba(255, 255, 255, 0.5); 
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     width: 300px; 
     border: 2px solid #263534; 
-    backdrop-filter: blur(15px); /* Adjusted blur effect */
+    backdrop-filter: blur(15px);
 }
 
 .login-form {
@@ -37,7 +37,7 @@ body {
 
 .icon-container i {
     font-size: 40px; 
-    color: #167e75; 
+    color: #000000; 
 }
 
 .input-group {
@@ -85,11 +85,11 @@ button:hover {
 }
 
 .signup-text a {
-    color: #2014c5; /* Default color sa link */
-    text-decoration: none; /* Wala'y underline */
+    color: #2014c5; 
+    text-decoration: none;
 }
 
 .signup-text a:hover {
-    text-decoration: underline; /* Underline on hover */
-    color: #10a1c5; /* Color sa link kung hovered */
+    text-decoration: underline; 
+    color: #10a1c5; 
 }
