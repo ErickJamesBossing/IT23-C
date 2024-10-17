@@ -107,7 +107,7 @@ body {
 .products {
     text-align: center;
     padding: 50px 20px;
-    background-color: #2b2e83; 
+    background-color: #050bbb; 
     color: #fff;
 }
 
@@ -148,7 +148,7 @@ body {
 
 /* Footer */
 .footer {
-    background-color: #6a2b8a;
+    background-color: #2b2e83;
     color: white;
     text-align: center;
     padding: 20px;

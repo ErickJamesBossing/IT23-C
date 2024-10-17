@@ -1,11 +1,16 @@
-body {
-    font-family: Arial, sans-serif;
+/* reset */
+* {
     margin: 0;
     padding: 0;
-    line-height: 1.6;
-    background-color: #f4f4f4;
+    box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+}
+
+/* header */
 .header {
     display: flex;
     justify-content: space-between;
