@@ -75,7 +75,6 @@ body {
     max-width: 40%;
 }
 
-/* About Section */
 .about {
     display: flex;
     justify-content: space-between;
@@ -107,7 +106,7 @@ body {
 .products {
     text-align: center;
     padding: 50px 20px;
-    background-color: #050bbb; 
+    background: repeating-linear-gradient(to right, skyblue, blue 10%, skyblue 20%);
     color: #fff;
 }
 
@@ -125,7 +124,7 @@ body {
     background-color: #fff;
     color: black;
     padding: 20px;
-    width: 200px;
+    width: 250px;
     border-radius: 5px;
     text-align: center;
 }
@@ -133,7 +132,7 @@ body {
 .product-card img {
     max-width: 100%; 
     height: auto;
-    max-height: 150px;
+    max-height: 200px;
 }
 
 .product-card h3 {
@@ -144,6 +143,139 @@ body {
 .product-card p {
     margin: 5px 0;
     color: #2b2e83; 
+}
+
+.advertisement {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(135deg, skyblue, rgba(0, 0, 255, 0.5), blue);
+    padding: 40px;
+    margin-bottom: 40px;
+    border-radius: 12px;
+    color: #031e2a;
+}
+
+.advertisement .ad-content {
+    max-width: 50%;
+}
+
+.advertisement h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.advertisement p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.advertisement .btn {
+    background-color: #03114e;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+.advertisement .btn:hover {
+    background-color: #333;
+    color: #0586f7;
+    border: 2px solid #081e88;
+}
+
+.advertisement .ad-image {
+    width: 400px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.brand-partnership {
+    text-align: center;
+    background-color: #d4f705;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('https://c8.alamy.com/comp/E66826/champs-sports-in-the-holiday-village-mall-great-falls-mt-usa-E66826.jpg'); 
+    background-size: cover;
+    background-position: center;
+    padding: 40px 0;
+}
+
+.brand-partnership h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+.brand-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.brand-card {
+    background-color: rgb(0, 244, 244);
+    padding: 20px;
+    border-radius: 12px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.brand-card img {
+    width: 150px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.brand-card h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+    color: black;
+}
+
+.brand-card p {
+    font-size: 0.9em;
+    color: #555;
+}
+
+.client-reviews {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 40px 0;
+}
+
+.client-reviews h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.review-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.review-card {
+    background: linear-gradient(135deg, skyblue, rgba(0, 0, 255, 0.5), blue);
+    padding: 20px;
+    border-radius: 8px;
+    width: 250px;
+    text-align: center;
+    color: white;
+}
+
+.review-card img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.review-card h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
 }
 
 /* Footer */
