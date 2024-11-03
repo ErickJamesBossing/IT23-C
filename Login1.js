@@ -8,7 +8,8 @@ document.addEventListener('DOMContentLoaded', function() {
         const password = loginForm.querySelector('input[type="password"]').value;
 
         if (username && password) {
-            alert(`Username: ${username}\nPassword: ${password}`); 
+            // Redirect to homepage.html after successful login
+            window.location.href = 'homepage.html'; 
         } else {
             alert('Please fill in both fields.');
         }
