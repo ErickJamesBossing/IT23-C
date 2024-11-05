@@ -44,7 +44,7 @@ h1 {
 
 .container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Ensures 3 items per row */
+    grid-template-columns: repeat(3, 1fr);  
     gap: 20px;
     padding: 20px;
 }
@@ -90,33 +90,30 @@ h1 {
 
 @media screen and (max-width: 768px) {
     .container {
-        grid-template-columns: 1fr 1fr; /* 2 items per row for tablets */
+        grid-template-columns: 1fr 1fr; 
     }
 }
 
 @media screen and (max-width: 480px) {
     .container {
-        grid-template-columns: 1fr; /* 1 item per row for mobile */
+        grid-template-columns: 1fr; 
     }
 }
 
-button {
-    background-color: skyblue; /* Sky blue color */
-    color: white; /* Text color */
-    border: none; /* No border */
-    padding: 10px 20px; /* Padding */
-    text-align: center; /* Center text */
-    text-decoration: none; /* No underline */
-    display: inline-block; /* Allow margin */
-    font-size: 16px; /* Font size */
-    margin: 10px 0; /* Margin */
-    cursor: pointer; /* Pointer cursor on hover */
-    border-radius: 5px; /* Rounded corners */
-    transition: background-color 0.3s; /* Smooth transition */
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #2b2e83;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 4px;
+    cursor: pointer;
 }
-
-button:hover {
-    background-color: deepskyblue; /* Darker blue on hover */
+.button-link:hover {
+    background-color: #1a1c5a; /* Darker shade on hover */
 }
 
 /* Footer */
