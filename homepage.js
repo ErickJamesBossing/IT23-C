@@ -1,18 +1,48 @@
-// Select the .about-image element
 const aboutImage = document.querySelector('.about-image');
 
-// Create an IntersectionObserver to watch when the element enters the viewport
 const observer = new IntersectionObserver((entries, observer) => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
-            // Add the 'visible' class to start the animation
             entry.target.classList.add('visible');
-            observer.unobserve(entry.target); // Stop observing after animation starts
+            observer.unobserve(entry.target); 
         }
     });
 }, {
-    threshold: 0.5 // The animation triggers when 50% of the image is in the viewport
+    threshold: 0.5 
+});
+observer.observe(aboutImage);
+
+document.addEventListener("DOMContentLoaded", function() {
+    const productCards = document.querySelectorAll('.product-card');
+
+    function animateOnScroll() {
+        productCards.forEach(card => {
+            const cardPosition = card.getBoundingClientRect().top;
+            const windowHeight = window.innerHeight;
+            if (cardPosition < windowHeight - 50) {
+                card.classList.add('animate');
+            }
+        });
+    }
+
+    window.addEventListener('scroll', animateOnScroll);
+    animateOnScroll(); 
 });
 
-// Start observing the .about-image element
-observer.observe(aboutImage);
+document.addEventListener("DOMContentLoaded", function() {
+    const reviewCards = document.querySelectorAll('.review-card');
+
+    function animateOnScroll() {
+        reviewCards.forEach(card => {
+            const cardPosition = card.getBoundingClientRect().top;
+            const windowHeight = window.innerHeight;
+            if (cardPosition < windowHeight - 50) {
+                card.classList.add('animate');
+            }
+        });
+    }
+
+    window.addEventListener('scroll', animateOnScroll);
+    animateOnScroll();
+});
+    
