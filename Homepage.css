@@ -101,7 +101,16 @@ body {
 .about-image {
     max-width: 30%;
     max-height: 20%;
+    opacity: 0; 
+    transform: translateX(-50%); 
+    transition: opacity 1.5s ease-out, transform 1.5s ease-out;
 }
+
+.visible {
+    opacity: 1; 
+    transform: translateX(0); 
+}
+
 
 .products {
     text-align: center;

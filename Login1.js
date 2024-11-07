@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         if (username && password) {
             // Redirect to homepage.html after successful login
-            window.location.href = 'homepage.html'; 
+            window.location.href = 'index.html'; 
         } else {
             alert('Please fill in both fields.');
         }
